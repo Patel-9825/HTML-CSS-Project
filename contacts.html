@@ -1,0 +1,146 @@
+<html>
+<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/Users/dhruvpatel/Desktop/TeaWeb/w3.css">
+<link rel="stylesheet" href="/Users/dhruvpatel/Desktop/TeaWeb/style.css">
+	<title> Contact - Tea Brands</title>
+<style>
+header{
+	height: 5%;
+  	width: 100%;
+  	font-family: Times New Roman;
+  	border-style: none;
+}
+
+/*.site-navigation{
+	
+	font-size: 40px;
+	position: relative;
+	text-align: right;
+	overflow: hidden;
+  background-color: #c2b698;
+  	width: 100%;
+  	height: 86px;
+	
+}
+
+.site-navigation a{
+	float: right;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+*/
+
+.labels{
+	font-size: 20px;
+	font-family: Times New Roman;
+	margin-top: 50px;
+
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #c2b698;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
+  border-style: solid;
+  margin-top: 0.7em;
+  border-style: solid;
+  border-color: #c2b698;
+}
+
+
+
+
+</style>
+</head>
+
+<body>
+<header> 
+		<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-occur-yellow">
+  	<a href="/Users/dhruvpatel/Desktop/TeaWeb/tea1.html"> <img src="/Users/dhruvpatel/Desktop/TeaWeb/tea.png" class="w3-bar-item w3-padding-large" alt="Tea" width="80px" height="80px"></a>
+    <a class="w3-bar-item w3-top-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    
+    <a href="/Users/dhruvpatel/Desktop/TeaWeb/about.html" class="w3-bar-item w3-padding-large w3-hide-small w3-right">ABOUT</a>
+    <a href="/Users/dhruvpatel/Desktop/TeaWeb/contacts.html" class="w3-bar-item w3-padding-large w3-hide-small w3-right">CONTACT</a>
+    <a href="/Users/dhruvpatel/Desktop/TeaWeb/tea1.html" class="w3-bar-item w3-padding-large w3-hide-small w3-right">HOME</a>
+    
+  </div>
+</div>
+
+<!-- Navbar on small screens -->
+<div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+	<a href="/Users/dhruvpatel/Desktop/TeaWeb/tea1.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+  <a href="/Users/dhruvpatel/Desktop/TeaWeb/contacts.html" class="w3-bar-item w3-button w3-padding-large">CONTACT</a>
+  <a href="/Users/dhruvpatel/Desktop/TeaWeb/about.html" class="w3-bar-item w3-button w3-padding-large">ABOUT</a>
+</div>
+	
+	</header>
+
+<div class="labels">
+<label>
+<span class="evf-label">Name</span>
+<abbr class="required" title="Required">*</abbr>
+</label>
+
+<input type="text" name="">
+<div contenteditable="plaintext-only"></div>
+</input>
+
+
+<label>
+<span class="evf-label">Mobile No.</span>
+<abbr class="required" title="Required">*</abbr>
+</label>
+
+<input type="text" name="">
+<div contenteditable="plaintext-only"></div>
+</input>
+
+<label>
+<span class="evf-label">Address</span>
+<abbr class="required" title="Required">*</abbr>
+</label>
+
+<input type="text" name="">
+<div contenteditable="plaintext-only"></div>
+</input>
+
+
+</div>
+
+
+<div class="navbar">
+	<p>
+		Thank you for Visiting.
+	</p>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+
+</script>
+
+
+</body>
+</html>
+
+
+
